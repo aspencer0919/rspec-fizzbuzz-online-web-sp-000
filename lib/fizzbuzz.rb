@@ -5,6 +5,9 @@ input = 1
 fizzbuzz = 1
 
 def fizzbuzz
+  input = 1
+end
+def fizzbuzz
   fizzbuzz = input
 end
 
