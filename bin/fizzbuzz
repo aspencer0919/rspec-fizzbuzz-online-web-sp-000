@@ -1,4 +1,4 @@
 require_relative "../lib/fizzbuzz.rb"
 
 puts "enter an integer:"
-input = gets.chomp
+fizzbuzz = gets.chomp
