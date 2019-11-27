@@ -4,17 +4,14 @@
 input = 1
 fizzbuzz = input
 
-if(fizzbuzz)
-  fizzbuzz % 3 == 0
+if(fizzbuzz % 3 == 0
   puts "Fizz"
-elsif
-  fizzbuzz % 5 == 0
+elsif  fizzbuzz % 5 == 0
   puts "Buzz"
-elsif
-  fizzbuzz % 3 == 0 && fizzbuzz % 5 == 0
+elsif  fizzbuzz % 3 == 0 && fizzbuzz % 5 == 0
   puts "FizzBuzz"
 else
-  puts ""
+  puts
 end
 
 #/ puts display
