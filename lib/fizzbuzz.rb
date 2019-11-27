@@ -5,7 +5,7 @@ input = 1
 fizzbuzz = 1
 
 def input
-  input = 1
+  input = gets.chomp
 end
 def fizzbuzz
   fizzbuzz = input
