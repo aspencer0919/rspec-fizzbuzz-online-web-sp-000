@@ -7,17 +7,17 @@ describe '../lib/fizzbuzz.rb' do
     expect(defined?(fizzbuzz)).to be_truthy
   end
   it 'returns "FizzBuzz" when the number is divisible by 3 and 5' do
-    fizzbuzz % 3 == 0 && fizzbuzz % 5 == 0
+    fizzbuzz (% 3 == 0 && fizzbuzz % 5 == 0)
 
     expect(fizzbuzz).to eq("FizzBuzz")
   end
   it 'returns "Fizz" when the number is divisible by 3' do
-    fizzbuzz % 3 == 0
+    fizzbuzz (% 3 == 0)
 
     expect(fizzbuzz).to eq("Fizz")
   end
   it 'returns "Buzz" when the number is divisible by 5' do
-    fizzbuzz % 5 == 0
+    fizzbuzz (% 5 == 0)
 
     expect(fizzbuzz).to eq("Buzz")
   end
