@@ -15,10 +15,3 @@ elsif  fizzbuzz % 3 == 0
 else
   puts
 end
-
-#/ puts display
-#/ describe '../lib/fizzbuzz.rb' do
-#/   it 'defines fizzbuzz' do
-
-#/     expect(defined?(fizzbuzz)).to be_truthy
-#/   end
