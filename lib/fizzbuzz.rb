@@ -4,7 +4,7 @@
 input = 1
 fizzbuzz = 1
 
-def fizzbuzz
+def input
   input = 1
 end
 def fizzbuzz
