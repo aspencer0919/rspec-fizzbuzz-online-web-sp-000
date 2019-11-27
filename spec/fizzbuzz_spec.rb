@@ -3,7 +3,7 @@ require_relative '../lib/fizzbuzz.rb'
 
 describe '../lib/fizzbuzz.rb' do
   it 'returns "FizzBuzz" when the number is divisible by 3 and 5' do
-    fizzbuzz % 3 == 0 && fizzbuzz % 5 == 0
+    fizzbuzz (% 3 == 0 && fizzbuzz % 5 == 0)
 
     expect(fizzbuzz).to eq("FizzBuzz")
   end
