@@ -6,7 +6,7 @@ fizzbuzz = 1
  def fizzbuzz
  end
 
-if fizzbuzz (% 3 == 0 && fizzbuzz % 5 == 0)
+if fizzbuzz % 3 == 0 && fizzbuzz % 5 == 0
   puts "FizzBuzz"
 elsif  fizzbuzz % 5 == 0
   puts "Buzz"
