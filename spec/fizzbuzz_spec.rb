@@ -1,13 +1,13 @@
 #/ require_relative './spec_helper.rb'
 require_relative '../lib/fizzbuzz.rb'
 
-describe '../lib/fizzbuzz.rb' do
-  it 'defines fizzbuzz' do
+#/ describe '../lib/fizzbuzz.rb' do
+#/   it 'defines fizzbuzz' do
 
-    expect(defined?(fizzbuzz)).to be_truthy
-  end
+#/     expect(defined?(fizzbuzz)).to be_truthy
+#/   end
   it 'returns "FizzBuzz" when the number is divisible by 3 and 5' do
-    fizzbuzz (% 3 == 0 && fizzbuzz % 5 == 0)
+    fizzbuzz % 3 == 0 && fizzbuzz % 5 == 0
 
     expect(fizzbuzz).to eq("FizzBuzz")
   end
