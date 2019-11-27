@@ -3,7 +3,7 @@
 # See README.md for instructions on how to do this
 fizzbuzz = input
 
-#/ def(fizzbuzz)
+def(fizzbuzz)
 #/   if(fizzbuzz)
 #/       fizzbuzz % 3 == 0
 #/       puts "Fizz"
@@ -16,6 +16,6 @@ fizzbuzz = input
 #/     else
 #/       puts ""
 #/   end
-#/ end
+end
 
 #/ puts display
