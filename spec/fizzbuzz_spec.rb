@@ -2,6 +2,10 @@
 require_relative '../lib/fizzbuzz.rb'
 
 describe '../lib/fizzbuzz.rb' do
+  it 'defines input' do
+
+    expect(defined?(input)).to be_truthy
+  end
   it 'defines fizzbuzz' do
 
     expect(defined?(fizzbuzz)).to be_truthy
