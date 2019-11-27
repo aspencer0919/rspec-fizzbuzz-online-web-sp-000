@@ -1,11 +1,11 @@
 #!/usr/lib/fizzbuzz.rb
 # Don't forget! This file needs to be 'required' in its spec file
 # See README.md for instructions on how to do this
-input = 1
+number = 1
 fizzbuzz = 1
 
 def input
-  input = gets.chomp
+  input = number
 end
 def fizzbuzz
   fizzbuzz = input
