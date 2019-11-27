@@ -2,7 +2,11 @@
 # Don't forget! This file needs to be 'required' in its spec file
 # See README.md for instructions on how to do this
 input = 1
-fizzbuzz = input
+fizzbuzz = 1
+
+def fizzbuzz
+  fizzbuzz = input
+end
 
 if fizzbuzz % 3 == 0 && fizzbuzz % 5 == 0
   puts "FizzBuzz"
