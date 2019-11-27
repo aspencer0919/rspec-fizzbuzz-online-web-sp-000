@@ -3,6 +3,7 @@ require_relative '../lib/fizzbuzz.rb'
 
 describe '../lib/fizzbuzz.rb' do
   it 'defines fizzbuzz' do
+
     expect(defined?(fizzbuzz)).to be_truthy
   end
   it 'returns "Fizz" when the number is divisible by 3' do
