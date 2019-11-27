@@ -3,19 +3,19 @@
 # See README.md for instructions on how to do this
 fizzbuzz = input
 
-def(fizzbuzz)
-  if(fizzbuzz)
-      fizzbuzz % 3 == 0
-      puts "Fizz"
-    elsif
-      fizzbuzz % 5 == 0
-      puts "Buzz"
-    elseif
-      fizzbuzz % 3 == 0 && fizzbuzz % 5 == 0
-      puts "Fizzbuzz"
-    else
-      puts ""
-  end
-end
+#/ def(fizzbuzz)
+#/   if(fizzbuzz)
+#/       fizzbuzz % 3 == 0
+#/       puts "Fizz"
+#/     elsif
+#/       fizzbuzz % 5 == 0
+#/       puts "Buzz"
+#/     elseif
+#/       fizzbuzz % 3 == 0 && fizzbuzz % 5 == 0
+#/       puts "Fizzbuzz"
+#/     else
+#/       puts ""
+#/   end
+#/ end
 
-puts display
+#/ puts display
