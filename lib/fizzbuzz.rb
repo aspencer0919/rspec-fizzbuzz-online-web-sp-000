@@ -3,8 +3,8 @@
 # See README.md for instructions on how to do this
 fizzbuzz = 1
 
-#/ def fizzbuzz
-#/ end
+ def fizzbuzz
+ end
 
 if fizzbuzz % 3 == 0 && fizzbuzz % 5 == 0
   puts "FizzBuzz"
