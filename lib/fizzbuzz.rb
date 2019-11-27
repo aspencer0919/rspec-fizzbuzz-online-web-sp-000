@@ -4,6 +4,9 @@
 number = 1
 fizzbuzz = 1
 
+def number
+  number = ""
+end
 def input
   input = number
 end
