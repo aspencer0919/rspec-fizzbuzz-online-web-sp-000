@@ -11,7 +11,7 @@ def fizzbuzz
      puts "Buzz"
    elseif
      fizzbuzz % 3 == 0 && fizzbuzz % 5 == 0
-     puts "Fizzbuzz"
+     puts "FizzBuzz"
    else
      puts ""
  end
