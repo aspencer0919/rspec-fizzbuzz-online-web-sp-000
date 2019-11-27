@@ -3,14 +3,14 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(input)
- if(fizzbuzz)
-     fizzbuzz % 3 == 0
+ if(input)
+     input % 3 == 0
      puts "Fizz"
    elsif
-     fizzbuzz % 5 == 0
+     input % 5 == 0
      puts "Buzz"
    elseif
-     fizzbuzz % 3 == 0 && fizzbuzz % 5 == 0
+     input % 3 == 0 && fizzbuzz % 5 == 0
      puts "FizzBuzz"
    else
      puts ""
