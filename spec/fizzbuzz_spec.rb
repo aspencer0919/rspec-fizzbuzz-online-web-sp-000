@@ -22,7 +22,7 @@ describe '../lib/fizzbuzz.rb' do
     expect(fizzbuzz).to eq("Buzz")
   end
   it 'returns nil when the number is not divisible by 3 or 5' do
-    fizzbuzz != % 3 == 0 || % 5 == 0 || % 3 == 0 && % 5 == 0
+    fizzbuzz != ()% 3 == 0 || % 5 == 0 || % 3 == 0 && % 5 == 0)
 
     expect(fizzbuzz).to eq(nil)
   end
